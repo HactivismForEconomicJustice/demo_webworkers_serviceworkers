@@ -32,6 +32,6 @@ xhttp.onreadystatechange = function() {
       console.log(xhttp.responseText.slice(0, xhttp.responseText.indexOf("\n")) );
     }
 };
-xhttp.open("GET", "/README.md", true);
+xhttp.open("GET", "https://hactivismforeconomicjustice.github.io/talk_webworkers/README.md", true);
 xhttp.send();
 
