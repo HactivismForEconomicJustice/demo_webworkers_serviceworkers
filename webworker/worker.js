@@ -15,7 +15,7 @@ function F(x) {
 var i = 0;
 setInterval(function() {
   self.postMessage(F(i++) + ' ' + task);
-}, 200);
+}, 500);
 
 // Don't use while(true) {}, or message events won't be processed
 
