@@ -1,5 +1,5 @@
 // Listen for messages from main page w/ string for outgoing messages.
-var task = 'Buy pretty things';
+var task = 'Hello from Worker';
 var r = self.addEventListener('message', function(e) {
   console.log('... worker got message ' + e.data);
   task = e.data;
